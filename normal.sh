@@ -11,7 +11,7 @@ ZYCLANG_DLINK="https://github.com/ZyCromerZ/Clang/releases/download/18.0.0git-20
 ZYCLANG_DIR="$WORKDIR/ZyClang/bin"
 
 # Kernel Source
-KERNEL_GIT="https://github.com/xiaomi-davinci/kernel_xiaomi_sm6150.git"
+KERNEL_GIT="https://github.com/Evolution-X-Davinci/android_kernel_xiaomi_sm6150.git"
 KERNEL_BRANCHE="14"
 KERNEL_DIR="$WORKDIR/PerfDynamicKernel"
 
@@ -21,7 +21,7 @@ ANYKERNEL3_BRANCHE="master"
 
 # Build
 DEVICES_CODE="davinci"
-DEVICE_DEFCONFIG="vendor/sdmsteppe-perf_defconfig vendor/davinci.config"
+DEVICE_DEFCONFIG="vendor/sdmsteppe-perf_defconfig vendor/debugfs.config vendor/davinci.config"
 DEVICE_DEFCONFIG_FILE="$KERNEL_DIR/arch/arm64/configs/$DEVICE_DEFCONFIG"
 IMAGE="$KERNEL_DIR/out/arch/arm64/boot/Image.gz"
 DTB="$KERNEL_DIR/out/arch/arm64/boot/dtb.img"
