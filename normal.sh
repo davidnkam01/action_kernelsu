@@ -7,12 +7,12 @@
 WORKDIR="$(pwd)"
 
 # ZyClang
-ZYCLANG_DLINK="https://github.com/ZyCromerZ/Clang/releases/download/18.0.0git-20240103-release/Clang-18.0.0git-20240103.tar.gz"
+ZYCLANG_DLINK="https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240220-release/Clang-19.0.0git-20240220.tar.gz"
 ZYCLANG_DIR="$WORKDIR/ZyClang/bin"
 
 # Kernel Source
-KERNEL_GIT="https://github.com/Evolution-X-Davinci/android_kernel_xiaomi_sm6150.git"
-KERNEL_BRANCHE="14"
+KERNEL_GIT="https://github.com/projectelixir-davinci/android_kernel_xiaomi_sm6150.git"
+KERNEL_BRANCHE="lineage-21"
 KERNEL_DIR="$WORKDIR/PerfDynamicKernel"
 
 # Anykernel3
